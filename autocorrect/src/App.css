@@ -1,0 +1,53 @@
+/* Dark mode header */
+.App-header-dark {
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+/* Light mode header */
+.App-header-light {
+  background-color: whitesmoke;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+/* Dark font style */
+.font-main-dark {
+  font-family: monospace;
+  align-self: center;
+  color: whitesmoke;
+  font-size: 140%;
+  font-weight: bold;
+}
+
+/* Light font style */
+.font-main-light {
+  font-family: monospace;
+  align-self: center;
+  color: black;
+  font-size: 140%;
+  font-weight: bold;
+}
+
+.toggle-btn {
+  position:absolute;
+  bottom:10%;
+  left:80%;
+}
+
+.typed-text-dark:hover{
+  color: rgb(158, 158, 158);
+  font-weight: bold;
+}
+
+.typed-text-light:hover{
+  color: rgb(90, 89, 89);
+  font-weight: bold;
+}
